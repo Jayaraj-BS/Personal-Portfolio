@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="title">My Projects</title>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: hsl(0, 0%, 90%);
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        /* Card styles */
+        .card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 350px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        /* Image styling */
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        /* Hover effect for card */
+        .card:hover {
+            transform: translateY(-9px);
+            cursor: pointer;
+        }
+
+        /* Overlay text */
+        .overlay-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 1.2rem;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            border-radius: 8px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .card:hover .overlay-text {
+            opacity: 1;
+        }
+
+        /* Text styling */
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .card-description {
+            font-size: 17px;
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .card a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">My Projects</h1>
+
+    <div class="container">
+        <!-- Project 1 -->
+        <div class="card">
+            <a href="https://project-overseer-jayaraj-bs-projects.vercel.app/" target="_blank">
+                <div class="card-title">Project Overseer: An Agile Project Management Solution</div>
+                <img src="assets/images/project-overseer-login.jpg" alt="Project Overseer Image">
+                <div class="card-description">Project Overseer is a comprehensive project management application
+                    designed to streamline your workflow, making it an ideal alternative to JIRA.
+                    <br>
+                    Use these credentials to explore the project
+                    username : test@gmail.com <br>
+                    password : test@2024
+                </div>
+                <div class="overlay-text">Click to view the Project</div>
+            </a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="card">
+            <a href="https://jayaraj-bs-skypass.netlify.app/" target="_blank">
+                <div class="card-title">Sky Pass</div>
+                <img src="assets/images/Sky Pass.jpg" alt="Sky Pass">
+                <div class="card-description">Sky Pass is a dynamic flight ticket booking application designed to
+                    provide a seamless and efficient experience for travelers. This innovative platform allows users to
+                    search for flights, book tickets, and manage their itineraries effortlessly. One of its standout
+                    features is the ability to generate dynamic boarding passes, ensuring a personalized and streamlined
+                    check-in process. Sky Pass is built with a focus on user-friendliness, reliability, and adaptability
+                    to meet diverse travel needs.</div>
+                <div class="overlay-text">Click to view the Project</div>
+            </a>
+        </div>
+
+
+        <!-- Project 3 -->
+        <div class="card">
+            <a href="https://jayaraj-bs-knightbite.netlify.app//" target="_blank">
+                <div class="card-title">Knight Bite Food App</div>
+                <img src="assets/images/knight-bite.jpg" alt="Knight Bite Food App Image">
+                <div class="card-description">Knight Bite Food App is a convenient food delivery platform offering a
+                    wide range of cuisines from local restaurants. It ensures quick, reliable delivery for users craving
+                    a late-night bite or a meal anytime.</div>
+                <div class="overlay-text">Click to view the Project</div>
+            </a>
+        </div>
+
+
+
+
+
+        <!-- Project 4 -->
+        <div class="card">
+            <a href="https://jayaraj-bs-maths-fractions.netlify.app/" target="_blank">
+                <div class="card-title">Maths Fractions</div>
+                <img src="assets/images/Maths Fractions.jpg" alt="Maths Fractions">
+                <div class="card-description">Maths Fractions is an interactive educational application designed to
+                    help students learn and understand fractions in mathematics.
+                    <ul>Dynamic quiz generation for personalized practice.</ul>
+                    <ul>Intuitive and engaging user interface tailored for a seamless learning experience.</ul>
+                    <ul>Designed to enhance conceptual understanding through interactive exercises and assessments.</ul>
+                    <b>This project highlights my skills in educational application development, user-centric design,
+                        and dynamic content generation</b>
+                </div>
+                <div class="overlay-text">Click to view the Project</div>
+            </a>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="card">
+            <a href="https://jayaraj-bs-webvista.netlify.app/" target="_blank">
+                <div class="card-title">Web Vista</div>
+                <img src="assets/images/Web Vista.jpg" alt="Web Vista">
+                <div class="card-description">Web Vista is a versatile and customizable template designed for companies
+                    to establish their official online presence. The project offers a professional layout, intuitive
+                    navigation, and responsive design, making it suitable for a variety of industries. With features
+                    like customizable sections, integrated contact forms, and SEO-friendly architecture, Web Vista
+                    provides a strong foundation for businesses to create their unique identity and showcase their
+                    services effectively.</div>
+                <div class="overlay-text">Click to view the Project</div>
+            </a>
+        </div>
+
+
+        <!-- Project 6 -->
+        <div class="card">
+            <a href="https://dummyfakeoneplus.netlify.app/" target="_blank">
+                <div class="card-title">OnePlus Website Clone</div>
+                <img src="assets/images/oneplus-clone.jpg" alt="OnePlus Website Clone Image">
+                <div class="card-description">The OnePlus Website Clone project is a replica of the official OnePlus
+                    website, aimed at mimicking its design and functionality. It focuses on recreating the user
+                    interface, navigation, and product display to provide a similar browsing experience.</div>
+                <div class="overlay-text">Click to view the Project</div>
+            </a>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="card">
+            <a href="https://cinestream-clone.netlify.app/" target="_blank">
+                <div class="card-title">Netflix Website Clone</div>
+                <img src="assets/images/netflix-clone.jpg" alt="Netflix Website Clone Image">
+                <div class="card-description">This project is a clone of the Netflix website, designed to replicate the
+                    look, feel, and functionality of the popular streaming service. Built using modern web development
+                    technologies.</div>
+                <div class="overlay-text">Click to view the Project</div>
+            </a>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="card">
+            <a href="https://shekar-bio.netlify.app/" target="_blank">
+                <div class="card-title">Personal Bio</div>
+                <img src="assets/images/my-bio.jpg" alt="Personal Bio Image">
+                <div class="card-description">As a passionate web developer, I specialize in creating dynamic and
+                    responsive websites that provide seamless user experiences. With expertise in front-end and back-end
+                    technologies, I excel in building intuitive interfaces and robust server-side applications. I am
+                    proficient in various programming languages, including HTML, CSS, JavaScript, and frameworks like
+                    Angular and React.</div>
+                <div class="overlay-text">Click to view the Project</div>
+            </a>
+        </div>
+
+        <!-- Project 9 -->
+        <div class="card">
+            <a href="https://technomavensgroup.netlify.app/" target="_blank">
+                <div class="card-title">Techno Mavens Group</div>
+                <img src="assets/images/tmg.jpg" alt="TMG Image">
+                <div class="card-description">In today’s fast-paced digital landscape, having a robust online presence
+                    is crucial for business success. Our expert team of <b>Digital Marketing</b> professionals is
+                    dedicated to
+                    helping you elevate your brand and reach your target audience effectively. We offer a comprehensive
+                    range of services,
+                </div>
+                <div class="overlay-text">Click to view the project</div>
+            </a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
